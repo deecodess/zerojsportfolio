@@ -1,4 +1,3 @@
-/* Global styles */
 body {
     background-color: #2e2e2e;
     margin: 0; 
@@ -8,36 +7,35 @@ body {
 }
 
 .container {
-    padding: 40px 130px;
+    padding: 5vh 10vw;
     margin: 0 auto; 
 }
 
 h1 {
     color: #ffcc99;
-    margin-bottom: 20px;
-    font-size: 2.5rem; 
+    margin-bottom: 3vh;
+    font-size: clamp(2rem, 4vw, 3rem); 
 }
 
 h2 {
     color: #cdcdcd; 
-    margin-top: 30px;
-    margin-bottom: 10px; 
-    font-size: 1.8rem; 
+    margin-top: 4vh;
+    margin-bottom: 2vh; 
+    font-size: clamp(1.5rem, 3vw, 2rem); 
 }
 
 p {
-    margin-bottom: 15px; 
-    font-size: 1rem; 
+    margin-bottom: 3vh; 
+    font-size: clamp(1rem, 2vw, 1.2rem); 
     color: #e0e0e0; 
 }
 
 h6 {
     color: #777; 
     text-align: center;
-    margin-top: 40px; 
-    font-size: 0.8rem;
+    margin-top: 5vh; 
+    font-size: clamp(0.8rem, 1.5vw, 1rem); 
 }
-
 
 a {
     color: inherit; 
